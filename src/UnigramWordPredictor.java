@@ -73,7 +73,7 @@ public class UnigramWordPredictor implements WordPredictor {
       }
       word = nextWord;
     }
-    System.out.println(neighborMap);
+    //System.out.println(neighborMap);
     this.neighborMap = neighborMap;
   }
 
